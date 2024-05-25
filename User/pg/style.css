@@ -1,0 +1,149 @@
+.item {
+    border: 1px rgb(41, 40, 40) solid;
+    background-color: aliceblue;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+
+body {
+    background-color: whitesmoke;
+}
+.clr{
+    background-color: rgba(0, 255, 255, 0.185);
+}
+
+.sec2 {
+    text-align: center;
+}
+
+.user-img {
+    border-radius: 50%;
+    border: 2px rgb(0, 255, 42) solid;
+    /* min-height: 30px;
+    min-width: 30px; */
+}
+
+.user-img2 {
+    border-radius: 50%;
+    border: 2px rgb(128, 128, 128) solid;
+    height: 50px;
+    width: 50px;
+}
+
+#user-name {
+    font-size: medium;
+    /* font-weight: 500; */
+    margin: 0px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.zoom {
+    transition: transform 0.8s;
+    padding-left: 1px;
+    /* Animation */
+    /* width: 200px;
+    height: 200px; */
+}
+
+.zoom:hover {
+    background-color: rgb(194, 253, 255);
+    transform: scale(0.9);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+/*Side menu/start*/
+.side-menu {
+    list-style-type: none;
+    margin-top: 60px;
+}
+
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    /* top: 100px; */
+}
+
+.msg-txt {
+    font-weight: 300;
+    margin: 0px;
+    font-size: medium;
+}
+
+.msg-box {
+    border-radius: 20px;
+    margin: 0px;
+    margin-bottom: 5px;
+    padding: 10px;
+    height: fit-content;
+    /* width: fit-content; */
+    background-color: rgba(0, 255, 255, 0.185);
+}
+.msg-box-sender {
+    border-radius: 20px;
+    margin: 0px;
+    margin-bottom: 5px;
+    padding: 10px;
+    height: fit-content;
+    /* width: fit-content; */
+    background-color: rgba(0, 255, 255, 0.466);
+}
+
+.msg-send-box {
+    text-align: center;
+    border-radius: 10pxpx;
+    margin: 0px;
+    margin-bottom: 5px;
+    padding: 10px;
+    height: fit-content;
+    /* width: fit-content; */
+    background-color: rgba(133, 133, 133, 0.685);
+}
+
+.time {
+    font-size: smaller;
+    font-weight: 100;
+    color: rgb(139, 139, 139);
+}
+
+.scroll-msg {
+    background-color: rgb(224, 247, 255);
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.scroll-msg::-webkit-scrollbar {
+    display: none;
+}
+
+.scroll-contact {
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.scroll-contact::-webkit-scrollbar {
+    display: none;
+}
+.ser-name-r-side{
+    font-size: medium;
+}
+
+/* div {
+    border: 1px red solid;
+} */
